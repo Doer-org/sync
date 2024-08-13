@@ -1,5 +1,5 @@
 # ビルド環境
-FROM golang:1.22 AS builder
+FROM golang:1.23 AS builder
 
 # アプリケーションのソースコードを含むディレクトリを指定
 WORKDIR /app
